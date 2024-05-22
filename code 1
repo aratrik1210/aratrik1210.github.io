@@ -1,0 +1,6 @@
+#A patient named John Smith has been checked in. He's 20 years old and a new patient. Define three variables - name, age and if he's new or existing patient.
+
+name = "John Smith"
+age = 20
+is_new = True
+print(name,age,is_new)
