@@ -1,0 +1,23 @@
+course = 'Python for Beginners'
+print(course[0:4][-3:-1])
+Output: yt 
+Reason: course[0:4] = Pyth
+        Pyth[-3:-1] = yt (doesn't include -1th letter i.e. h)
+
+
+
+Eg: course = 'Python for Beginners'
+print(course[0:3])
+Output: Pyt
+
+print(course[0:]) = Python for Beginners (end index not provided so entire string gets printed)
+
+course = 'Python for Beginners'
+print(course[:3]) = Pyt (If start index not given; 0 is assumed
+
+course = 'Python for Beginners'
+print(course[:]) = Python for Beginners (No start or end index provided; start is assumed 0 and entire original string returns as output)
+
+name = 'Jennifer'
+print(name[1:-1])
+Output = ennife
