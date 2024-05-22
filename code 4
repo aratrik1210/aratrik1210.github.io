@@ -1,0 +1,4 @@
+#Ask a user their weight(in pounds), convert it to kilograms and print
+weight = input("What's your weight in pounds? ")
+kilogram_weight = int(weight) * 0.453
+print(kilogram_weight)
