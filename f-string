@@ -1,0 +1,18 @@
+CODE 1:
+
+first = 'John'
+last = 'Smith'
+message = first + ' [' + last + '] is a coder'  
+print(message)
+
+CODE 2:
+
+first = 'John'
+last = 'Smith'
+msg = f'{first} [{last}] is a coder'
+print(msg)
+
+Output: John [Smith] is a coder (Same for both)
+
+EXPLANATION: In CODE 1; the + operator is used to concatenate multiple strings together. This can be less readable, especially with more variables and complex strings.
+             In CODE 2; An f-string (formatted string) is used, denoted by the prefix f before the string. more readable and concise, especially for complex strings or multiple variables.
