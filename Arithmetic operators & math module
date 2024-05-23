@@ -1,0 +1,42 @@
+x = 10
+x += 3   (+= is an augmented arithmetic operator; + and = are enhanced together)
+print(x)
+Output = 13
+
+[Applicable for -=, *=, /= etc.]
+
+Order of Precedence:
+Parenthesis
+Exponentiation
+Multiplication or Division
+Addition or Subtraction
+
+X = 10 + 3*2**2
+print(x)
+output = 22 [10 + 3(4)]
+
+x = (2+3)* 10-3
+print(x)
+output = 47[5*10 - 3]
+
+MATH FUNCTIONS -- 
+
+x = 2.9
+print(round(x))
+output = 3
+
+x = 2.9
+print(abs(-x))
+output = 2.9 (abs always returns a positive value)
+
+For doing mathematical calculations, you need to install the math module.
+
+Module is like a supermarket section, that has everything needed to do a particular function (here mathematical calculations)
+
+import math
+
+print(math.floor(2.9)) [rounds a number DOWN to the nearest integer]
+output = 2
+
+print(math.ceil(2.9)) [returns the smallest integer greater than or equal to a given number]
+output = 3
