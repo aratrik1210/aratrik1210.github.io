@@ -1,0 +1,25 @@
+course = 'Python for Beginners'
+print(len(course))
+Output = 20
+
+course = 'Python for Beginners'
+print(course.lower())
+Output = python for beginners
+
+course = 'Python for Beginners'
+print(course.upper())
+Output = PYTHON FOR BEGINNERS
+
+The .lower() and .upper() methods in Python are known as string methods. These methods are built-in functions that operate on string objects, allowing you to perform specific operations on the string data.
+
+course = 'Python for Beginners'
+print(course.find('B'))
+Output = 11 (index of B is 11)
+
+course = 'Python for Beginners'
+print(course.replace('Beginners','Students'))
+Output = Python for Students
+
+course = 'Python for Beginners'
+print('For'in course)
+Output = False (Boolean expression, returns False as For is absent in course, for is present)
