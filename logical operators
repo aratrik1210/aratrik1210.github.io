@@ -1,0 +1,27 @@
+has_high_income = False
+has_good_credit = True
+
+if has_high_income and has_good_credit: [and: both the conditions must be true]
+       print("Eligible for loan")
+else:
+   print("Not Eligible")
+
+Output: Not Eligible
+
+
+has_high_income = False
+has_good_credit = True
+
+if has_high_income or has_good_credit: [or: either of the two condition must be true]
+       print("Eligible for loan")
+else:
+   print("Not Eligible")
+
+Output: Eligible
+
+temperature = 20
+
+if temperature>30:
+   print("it's a hot day")
+else:
+   print("not hot day")
