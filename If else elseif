@@ -1,0 +1,63 @@
+is_hot = False
+if is_hot:
+    print("It's a hot day")
+print("Enjoy your day") [this code line is outside the if-statement block]
+
+Output = Enjoy your day
+
+is_hot = True
+Output = It's a hot day
+         Enjoy your day
+
+is_hot = True
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+else:
+    print("It's a normal day")
+print("Enjoy your day")
+
+Output: It's a hot day
+Drink plenty of water
+Enjoy your day
+
+
+is_hot = False
+is_cold = True
+
+if is_hot:                          [Since is_hot is False, this code block is ignored]
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:                         [Since is_cold is True, this code block is executed and printed]
+    print("It's a cold day")
+    print("Wear warm clothes")
+
+else:                                 [Since atleast one of the previous statements are true; this is ignored]
+    print("It's a lovely day")
+
+print("Enjoy your day")
+
+Output:
+It's a cold day
+Wear warm clothes
+Enjoy your day
+
+
+
+#Price of a house if $1M.
+# If buyer has good credit, they put down 10%
+#Otherwise, they need to put down 20%
+#Print the down payment required for a buyer with good credit
+
+
+price = 1000000
+has_credit = False
+if has_credit:
+   down_payment = 0.1 * price
+
+else:
+   down_payment = 0.2 * price
+print(f"Down payment: ${down_payment}")
+
+Output:
+Down payment: $200000.0
