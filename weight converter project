@@ -1,0 +1,32 @@
+Method 1 - Using F-string
+
+weight = int(input("What is your weight? "))
+unit = input('(L)bs or (K)g:')
+if unit.upper == "L":
+   converted = weight*0.45
+   print(f"You are  {converted}  kilos")             [print(f"You are {converted} kilos") prints the converted weight in kilograms using an f-string for formatting.]
+else:
+   converted = weight/0.45
+   print(f"You are  {converted}  pounds")
+
+Output:
+What is your weight? 50
+(L)bs or (K)g: k
+You are 111.11111111111111 pounds
+
+Method 2 - Converting int to str and concatenation
+
+weight = int(input("What is your weight? "))
+unit = input('(L)bs or (K)g:').upper()
+
+if unit == "L":
+    converted = weight * 0.45
+    print("You are  " + str(converted) + "  kilos")
+else:
+    converted = weight / 0.45
+    print("You are  " + str(converted) + "  pounds")
+
+Output:
+What is your weight? 50
+(L)bs or (K)g: k
+You are 111.11111111111111 pounds
