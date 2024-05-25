@@ -1,0 +1,13 @@
+#Calcuate the prices of all items listed in the shopping cart
+
+
+prices = [10, 20, 30]
+total = 0
+for item in prices:
+    total += item                                                          First iteration: item is 10. total becomes 0 + 10 = 10.
+                                                                           Second iteration: item is 20. total becomes 10 + 20 = 30.                                                                           
+                                                                           Third iteration: item is 30. total becomes 30 + 30 = 60.
+print(f"Total: {total}")
+
+
+Output: 60 
