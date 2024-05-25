@@ -1,0 +1,25 @@
+i = 1
+while i<=5: [while this condition is satisfied, the loop will run. Once i=6, the loop terminates and straight goes to print statement]
+   print(i)
+   i = i+1
+print("Done")
+
+Output:
+1
+2
+3
+4
+5
+Done
+
+i = 1
+while i<=5:
+   print('*'* i)
+   i = i+1
+
+Output:
+*
+**
+***
+****
+*****
