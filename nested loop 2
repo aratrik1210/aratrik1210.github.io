@@ -1,0 +1,19 @@
+#Printing F-pattern using nested loop.
+
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ''
+    for count in range(x_count)
+         output += 'x'
+    print(output)
+Output:
+xxxxx
+xx
+xxxxx
+xx
+xx
+
+Explanation: 
+Outer Loop: Goes through each number in the list [5, 2, 5, 2, 2].
+Inner Loop: For each number, adds that many 'x' characters to a string.
+Print: After the inner loop, prints the number of 'x' characters in the ouput variable. 
