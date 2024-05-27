@@ -1,0 +1,42 @@
+#List methods
+
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+print(numbers)
+
+Output:
+[5, 2, 1, 7, 4, 20]
+
+numbers = [5, 2, 1, 7, 4]
+numbers.insert(0,10)
+print(numbers)
+
+Output:
+[10, 5, 2, 1, 7, 4]    (0 replaced by 10)
+
+numbers = [5, 2, 1, 7, 4]
+numbers.remove(2)
+print(numbers)
+Output:
+
+[5, 1, 7, 4] (2 removed)
+
+
+numbers = [5, 2, 1, 7, 4]
+numbers.clear()    (All values cleared)
+print(numbers)
+Output:
+[]
+
+numbers = [5, 2, 1, 7, 4]
+numbers.sort()
+print(numbers)
+Output:
+[1, 2, 4, 5, 7]
+
+numbers = [5, 2, 1, 7, 4]
+numbers.sort()
+numbers.reverse()
+print(numbers)
+Output:
+[7, 5, 4, 2, 1]
