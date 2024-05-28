@@ -1,0 +1,19 @@
+# Find duplicate numbers from the list:
+
+numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+uniques = []     (created to store unique numbers found in the numbers list)
+for number in numbers:
+    if number not in uniques:                (For each number in numbers, it checks if the number is not already present in the uniques list.
+                                                   If the number is not in uniques, it adds the number to uniques.
+    uniques.append(number)
+    print(uniques)
+
+Output:
+[2]
+[2]
+[2, 4]
+[2, 4, 6]
+[2, 4, 6, 3]
+[2, 4, 6, 3]
+[2, 4, 6, 3]
+[2, 4, 6, 3, 1]
