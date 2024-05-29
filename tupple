@@ -1,0 +1,7 @@
+#Tupples - unlike lists, you can't modify tupples
+number = (1, 2, 3)
+print(number[0])
+Output:
+1
+
+#Tupples are useful when you want to make a list of items but ensure that it doesn't get modified by anyway
