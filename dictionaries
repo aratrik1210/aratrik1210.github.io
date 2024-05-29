@@ -1,0 +1,24 @@
+#Dictionaries - used in context of key value pairs
+
+name: John Smith
+email: john@gmail.com          [name, email and phone are keys and they've values assigned to each: key value pairs]
+phone: 1234
+
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+print(customer["name"])
+output:
+John Smith
+
+print(customer["Name"]) or print(customer["Birthdate"]) - Key error will return as these keys do not exist.
+
+# we can also update the keys or values:
+
+customer["name"] = "Jack Smith"
+customer["birthdate"] = " 12th Oct 2001"
+print(customer["birthdate"])
+Output:
+12th Oct 2001
