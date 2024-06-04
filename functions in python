@@ -1,0 +1,14 @@
+def greet_user(): #defining a new function for a block of code
+    print('Hi there!')
+    print('Welcome aboard')
+
+
+print("Start")
+greet_user()    #We are calling the greet function, only here python goes to print the above two lines
+print("Finish")
+
+Output:
+Start
+Hi there!
+Welcome aboard
+Finish
