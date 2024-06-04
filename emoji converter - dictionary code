@@ -1,0 +1,16 @@
+#Emoji Converter
+
+message = input(">")
+words = message.split(' ')  [The message gets split into individal strings, so that dictionary can be created in the next step]
+emojis = {
+    ":)":"😊",
+    ":(":"🙁"
+}
+output = "" 
+for word in words:
+    output += emojis.get(word, word) + " "  [If the word is present in the emojis dictionary i.e. :) or :( -> Gets converted to its emoji form. Else gets printed as it is. " " adds space in between]
+print(output)
+
+Output:
+> I am sad :(
+ I am sad 🙁 
