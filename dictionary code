@@ -1,0 +1,16 @@
+phone = input("Phone: ")
+digits_mapping = {    [dictionary created]
+    "1": "One",       [Key Value Pairs: 1, 2, 3, 4 - Keys; One, Two, Three, Fours - Values]
+    "2": "Two",
+    "3": "Three",
+    "4": "Four"
+}
+output = ""                 [An empty string variable named output is created to store the final converted phone number.]
+for ch in phone:            [This loop iterates over each character (ch) in the phone string. For example, if the user entered "1234", the loop would run four times, once for each digit]
+    output += digits_mapping.get(ch, "!") + " "   [If the character is found, it is retrieved; If the character (ch) is not found in the dictionary (e.g., it's a non-digit symbol or a different digit)"!" is returned.
+print(output)
+
+
+Output:
+Phone: 123
+One Two Three 
